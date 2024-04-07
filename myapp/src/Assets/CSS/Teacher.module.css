@@ -1,0 +1,56 @@
+.container p:first-child {
+  color: #6b7280;
+  font-size: 1.25rem;
+  margin-bottom: -0.7rem;
+}
+.container h1 {
+  color: #6b7280;
+  font-size: 3rem;
+  margin: 1rem 0rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.flag {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+@media only screen and (max-width: 1200px) {
+  .flex {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container p:first-child {
+    text-align: center;
+  }
+  .container h1 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .container p:first-child {
+    font-size: 1rem;
+  }
+  .container h1 {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container h1 {
+    font-size: 2rem;
+  }
+  .image img {
+    width: 265px;
+
+    height: 300px;
+  }
+  .container h2 {
+    font-size: 1.2rem;
+  }
+}

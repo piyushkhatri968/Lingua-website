@@ -1,0 +1,125 @@
+.main_container {
+  margin: 2.5rem 3.5rem;
+}
+
+.container {
+  padding: 2.2rem 4rem;
+  background-color: #fff5f1;
+  border-radius: 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.right img {
+  width: 600px;
+  height: 600px;
+}
+
+.left {
+  margin-top: 7rem;
+}
+
+.left h1 {
+  font-size: 3.5rem;
+  font-weight: normal;
+  line-height: 1;
+  color: #1f2937;
+}
+
+.left p {
+  color: #6b7280;
+  margin: 2rem 0rem;
+}
+
+.btn button {
+  padding: 1.5rem 2rem;
+  border: none;
+  border-radius: 30px;
+  color: #7270dd;
+  font-weight: bolder;
+  font-size: 1rem;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn button:hover {
+  color: white;
+  background-color: #7270dd;
+}
+
+@media only screen and (max-width: 1140px) {
+  .main {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .left {
+    margin-top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    padding: 1rem 1rem;
+  }
+  .left h1 {
+    margin: 0.5rem 0rem 0.7rem 0rem;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+  .left p {
+    margin-bottom: 0.7rem;
+    text-align: center;
+  }
+  .right img {
+    width: 500px;
+    height: 500px;
+  }
+  .left {
+    margin-top: 1rem;
+  }
+  .btn button {
+    padding: 1rem 1.5rem;
+  }
+  .btn {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .right img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .left h1 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .right img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .left p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .btn button {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+  }
+  .btn {
+    text-align: center;
+  }
+  .left h1 {
+    margin-bottom: -1rem;
+  }
+}

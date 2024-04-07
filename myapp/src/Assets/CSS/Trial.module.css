@@ -1,0 +1,71 @@
+.main_container {
+  margin: 7rem 0rem;
+}
+
+.container h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: normal;
+}
+.container p {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 0.4rem;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 0.5rem 0rem;
+  width: 100%;
+}
+.email input {
+  text-align: left;
+  border: none;
+  outline: none;
+  background-color: #f8fafe;
+  padding: 2rem;
+  border-radius: 60px;
+  width: 350px;
+  font-size: 1rem;
+}
+
+.email button {
+  padding: 1rem;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: bolder;
+  font-size: 1rem;
+  background-color: #524fd5;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.email button:hover {
+  color: white;
+  background-color: #303640;
+}
+
+@media only screen and (max-width: 620px) {
+  .email {
+    flex-wrap: wrap;
+  }
+  .container h2 {
+    font-size: 1.2rem;
+  }
+  .container p {
+    font-size: 0.8rem;
+  }
+  .email input {
+    padding: 1.5rem;
+  }
+  .email button {
+    padding: 0.8rem;
+  }
+  .main_container {
+    margin: 3rem 0rem;
+  }
+}

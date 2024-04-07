@@ -1,0 +1,100 @@
+.main_container {
+  margin: 7rem 0rem;
+}
+
+.container p:first-child {
+  color: #6b7280;
+  font-size: 1.25rem;
+}
+
+.container h1 {
+  color: #6b7280;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+
+.right h2 {
+  font-size: 2.25rem;
+}
+
+.flag {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.flag p {
+  color: #6b7280;
+}
+
+.stubio {
+  font-size: 1.5rem;
+  width: 40rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container p:first-child {
+    text-align: center;
+  }
+
+  .container h1 {
+    text-align: center;
+  }
+  .flex {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .right h2 {
+    text-align: center;
+  }
+  .flag {
+    justify-content: center;
+  }
+  .stubio {
+    text-align: center;
+    padding: 7px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .main_container {
+    margin: 5rem 0rem;
+  }
+  .container h1 {
+    font-size: 2rem;
+  }
+  .left img {
+    width: 340px;
+    height: 400px;
+  }
+  .stubio {
+    text-align: center;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  .right h2 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main_container {
+    margin: 3rem 0rem;
+  }
+  .left img {
+    width: 280px;
+    height: 330px;
+  }
+  .right h2 {
+    font-size: 1.8rem;
+  }
+  .stubio {
+    font-size: 1rem;
+  }
+}

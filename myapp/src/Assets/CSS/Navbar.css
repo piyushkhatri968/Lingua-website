@@ -34,6 +34,10 @@ a {
   transition: 0.4s ease-in;
 }
 
+.nav_menu li:first-child{
+  margin-top: 0.5rem;
+}
+
 .nav_toggler {
   cursor: pointer;
   display: none;
@@ -70,8 +74,8 @@ a {
     position: fixed;
     top: 10vh;
     right: 0;
-    width: 50%;
-    height: 35vh;
+    width: 40%;
+    height: 23vh;
     background-color: #fff5f1;
     border-radius: 30px;
     flex-direction: column;

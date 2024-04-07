@@ -72,10 +72,10 @@ a {
 
   .nav_menu {
     position: fixed;
-    top: 13vh;
+    top: 10vh;
     right: 0;
     width: 40%;
-    height: 23vh;
+    height: 35vh;
     background-color: #fff5f1;
     border-radius: 30px;
     flex-direction: column;
